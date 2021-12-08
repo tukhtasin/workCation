@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* wrapper div*/
+.body-1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+/* SIDE BAR */
+.side-bar{
+    flex: 2;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo{
+    background-image: url(logo.jpeg);
+    background-position: center;
+    background-size: cover;
+   flex: 0.6;
+
+}
+.pricing{
+  
+    justify-content: space-around;
+    background-color: rgb(46,55,72);
+    flex: 2;
+    box-sizing: border-box;
+    color: rgb(136,147,165);
+    font-family: 'Noto Sans', sans-serif;
+}
+.bed{
+    position:absolute;
+    width: 8vh;
+    margin-left: 1.9vw;
+    margin-top: 2.4vh;
+}
+.bath {
+    position:absolute;
+    width: 8vh;
+    margin-left: 10.7vw;
+}
+.in-1   {
+     width: 7vw;
+     height: 4vh;
+     border-radius: 5px;
+ }
+.lable-1{
+  margin-top: 3vh;
+  color: rgb(136,147,165);
+}
+.price-r{
+    margin-top: 9vh;
+    margin-left: 1.8vw ;
+    margin-bottom: 1vh;
+}
+.select {
+   height: 4vh;
+   width: 15.8vw;
+   border-radius: 5px;
+   }
+select{
+     border:  0px;
+     background-color: rgb(74,85,103);
+     color: white;
+}
+.type{
+    background-color: rgb(46,55,72);
+   flex: 3 ;
+   font-family: 'Noto Sans', sans-serif;
+   color: white;
+}
+.p-1 {
+    font-weight:600;
+    margin-left: 1.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 1vh;
+    color: rgb(136,147,165);
+}
+.type-wrapper{
+    padding-left: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 0.8vh;
+}
+.amenities{
+    background-color: rgb(46,55,72);
+    flex: 3;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.update-button{
+    flex: 1;
+    background-color: rgb(34, 33, 33);
+}
+button{
+    cursor: pointer;
+    border: 0;
+    background:rgb(102,126,234);
+     margin-top: 2.5vh;
+    margin-left: 3.8vw; 
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    color: rgb(255, 255, 255);
+    background-color: 102,126,234;
+}
+b{
+    font-family: 'Noto Sans', sans-serif;
+}
+.p-2{
+    font-weight:600;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 1.5vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    color: rgb(136,147,165);
+}
+.line-1{
+    margin-top: 24.7vh;
+    position:absolute;
+    width: 20vw;
+    background-color:rgb(10, 14, 20);
+    height: 0.5vh;
+}
+.line-2{
+    margin-top: 51vh;
+    position:absolute;
+    width: 20vw;
+    background-color:rgb(10, 13, 17);
+    height: 0.5vh;
+}
+/* main bar */
+.main-bar{
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    background-color: rgb(238, 232, 232);
+}
+/* navbar */
+.navbar{
+    flex: 0.5;
+    background-color: white;
+     
+}
+ .menu  ul {
+     align-items: center;
+     position: absolute;
+     width: 30vw;
+     height: 5.3vh;
+     justify-content:space-around ;
+     margin-left: 44vw;
+     display: flex;
+     list-style: none;
+}
+.a-1{
+    font-size:smaller ;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: tomato;
+
+}
+.profile-p{
+    margin-left: 35.5vw;
+    position: absolute;
+    width: 2.1vw;
+    height: 4.2vh;
+    border-radius: 50%;
+}
+.search{ 
+position:absolute;
+}
+.search-1{
+    outline:0;
+    background-color:rgb(217, 220, 223);
+     width: 16vw;
+     height: 3.4vh;
+     margin-top: 0.7vh;
+     margin-left: 2.5vw;
+     border-radius:5px;
+     border: 0px;
+}
+i{
+    color: rgb(17, 2, 70);
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: 17vw;
+}
+/* photos wrapper */
+.photos-w{
+    background-color: rgb(237,242,246);
+    flex: 9;
+    /* display: flex; */
+    flex-direction: column;
+}
+h3{
+    color: rgb(10, 10, 10);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 1vh;
+    margin-left: 3.5vw;
+    margin-bottom: 1vh;
+}
+.p-3 , .p-4{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 3.5vw;
+    margin-bottom: 1vw;
+}
+.pic-wrapper-1{
+    display: flex;
+    justify-content: space-around;
+    width: 90;
+    
+}
+.photo-1{
+    width: 20vw;
+    height: 35vh;
+}
+/* postcard 1 */
+.photo-card-1{
+    border-radius: 1vmax;
+    margin-left: 4.8vw;
+    margin-top: 31vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  0 6px  black;
+    position: absolute;
+    width:17vw;
+    height: 15vh;
+}
+.card-p1{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+h4{
+    margin-left: 0.7vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cost-p{
+    margin-top: 1.7vh;
+     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 1.3vh; 
+}
+/* post card 2 */
+.photo-card-2{
+    border-radius: 1vmax;
+    margin-left: 31.6vw;
+    margin-top: 31vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  0 6px  black;
+    position: absolute;
+    width:17vw;
+    height: 15vh;
+}
+.card-p2{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+.h4-1{
+    font-weight: 600;
+    margin-left: 1.6vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cost-p-1{
+    margin-top: 1.7vh;
+     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 1.3vh; 
+}
+/* photo card 3 */
+.photo-card-3{
+    border-radius: 1vmax;
+    margin-left: 58.3vw;
+    margin-top: 31vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  0 6px  black;
+    position: absolute;
+    width:17vw;
+    height: 15vh;
+}
+.card-p3{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+.h4-2{
+    font-weight: 600;
+    margin-left: 1.6vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cost-p-2{
+    margin-top: 1.7vh;
+     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 1.3vh; 
+}
+/* postcard 4 */
+.photo-card-4{
+    border-radius: 1vmax;
+    margin-left: 4.8vw;
+    margin-top: 76vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  0 6px  black;
+    position: absolute;
+    width:17vw;
+    height: 15vh;
+}
+.card-p4{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+.h4-3{
+    font-weight: 600;
+    margin-left: 1.6vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cost-p-3{
+    margin-top: 1.7vh;
+     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 1.3vh; 
+}
+/* postcard 5 */
+.photo-card-5{
+    border-radius: 1vmax;
+    margin-left: 31.6vw;
+    margin-top: 76vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  0 6px  black;
+    position: absolute;
+    width:17vw;
+    height: 15vh;
+}
+.card-p5{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+.h4-4{
+    font-weight: 600;
+    margin-left: 1.6vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cost-p-4{
+    margin-top: 1.7vh;
+     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 1.3vh; 
+}
+/* postcard 6 */
+.photo-card-6{
+    border-radius: 1vmax;
+    margin-left: 58.3vw;
+    margin-top: 76vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0  0 6px  black;
+    position: absolute;
+    width:17vw;
+    height: 15vh;
+}
+.card-p5{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+.h4-5{
+    font-weight: 600;
+    margin-left: 1.6vw;
+    font-family: 'Noto Sans', sans-serif;
+}
+.cost-p-5{
+    margin-top: 1.7vh;
+     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+    margin-left: 1.3vh; 
+}
